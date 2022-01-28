@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(../../fonts/Inter\ Web/Inter-Light.woff2) format('woff2'),
+       url(../../fonts/Inter\ Web/Inter-Light.woff) format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../../fonts/Inter\ Web/Inter-Bold.woff2) format('woff2'),
+       url(../../fonts/Inter\ Web/Inter-Bold.woff) format('woff');
+  font-weight: bold;
+}
+
+.root{
+  font-family: 'Inter';
+  background-color: #2A2C2F;
+}
