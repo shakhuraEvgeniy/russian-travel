@@ -1,0 +1,6 @@
+.cover{
+  background-image: url(../../../images/zhd-baikal.png);
+  max-width: 1184px;
+  height: 740px;
+  background-size: contain;
+}
