@@ -1,5 +1,5 @@
 .lead__image{
-  min-width: 768px;
-  min-height: 480px;
-  max-width: 984;
+  margin-top: 64px;
+  width: 100%;
+  object-fit: contain;
 }
