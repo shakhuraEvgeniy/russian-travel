@@ -1,12 +1,8 @@
 .cover{
-  background-image: url(../../../images/zhd-baikal.png);
   position: relative;
   display: flex;
   margin: 91px auto 0;
   max-width: 1184px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: 740px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -25,6 +21,7 @@
   transition: opacity .4s ease;
 }
 
-.cover:hover::before{
+.cover:hover:before{
   opacity: .8;
+  cursor: pointer;
 }
