@@ -1,7 +1,14 @@
 .intro__fact{
+  max-width: 690px;
   color: #fff;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 768px){
+  .intro__fact{
+    max-width: 720px;
+  }
 }

@@ -2,6 +2,24 @@
   margin-top: 80px;
   justify-content: center;
   display: grid;
-  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  grid-template-columns: minmax(320px, 460px) minmax(352px, 484px);
   gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px){
+  .place{
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .place{
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .place{
+    grid-template-columns: minmax(320px, 1fr);
+  }
 }
