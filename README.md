@@ -14,4 +14,4 @@
 6. Работа с Figma
 7. Выкладка работы на GitHub Pages
 
-* [Ссылка на на работу](https://)
+* [Ссылка на на работу](https://shakhuraevgeniy.github.io/russian-travel/index.html)
