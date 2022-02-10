@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/list/list.css);
+@import url(../blocks/figure/figure.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title-subtitle/cover__title-subtitle.css);
@@ -14,13 +15,13 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_underline/header__lang-link_underline_yes.css);
-@import url(../blocks/header/__lang-link/_underline/header__lang-link_underline_no.css);
+@import url(../blocks/header/__lang-link/_activ/header__lang-link_activ.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__item-link/header__item-link.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__fact/intro__fact.css);
-@import url(../blocks/intro/__sapn-accent/intro__sapn-accent.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/lead/lead.css);

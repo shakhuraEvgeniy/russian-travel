@@ -9,18 +9,20 @@
 <body class="root">
   <header class="header">
     <div class="header__logo"></div>
-    <nav class="header__lang-links list">
-      <a class="header__lang-link header__lang-link_underline_yes" href="#">Ru</a>
-      <a class="header__lang-link header__lang-link_underline_no" href="#">En</a>
-    </nav>
+    <ul class="header__lang-links list">
+      <li class="header__item-link"><a class="header__lang-link header__lang-link_activ" href="#">Ru</a></li>
+      <li class="header__item-link"><a class="header__lang-link" href="#">En</a></li>
+    </ul>
   </header>
 
   <main>
     <section class="lead">
-      <h1 class="lead__title">Путешествия по России</h1>
+      <h1 class="lead__title">Путешествия по&#160;России</h1>
       <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей,&#160;а здесь.</h2>
-      <img class="lead__image" src="./images/map.png" alt="Фото купе вагона с картой следования">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="figure">
+        <img class="lead__image" src="./images/map.png" alt="Фото купе вагона с картой следования">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <section class="intro">
@@ -33,11 +35,11 @@
         некоторые интересные места, достойные вашего отпуска.
       </p>
       <ul class="intro__list list">
-        <li class="intro__fact"><span class="intro__sapn-accent">Часовых поясов </span>11</li>
-        <li class="intro__fact"><span class="intro__sapn-accent">Объектов природного наследия ЮНЕСКО </span>12</li>
-        <li class="intro__fact"><span class="intro__sapn-accent">Объектов культурного наследия ЮНЕСКО </span>16</li>
-        <li class="intro__fact"><span class="intro__sapn-accent">Природных заповедников </span>105</li>
-        <li class="intro__fact"><span class="intro__sapn-accent">Аэропортов </span>241</li>
+        <li class="intro__fact"><span class="intro__span-accent">Часовых поясов </span>11</li>
+        <li class="intro__fact"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО </span>12</li>
+        <li class="intro__fact"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО </span>16</li>
+        <li class="intro__fact"><span class="intro__span-accent">Природных заповедников </span>105</li>
+        <li class="intro__fact"><span class="intro__span-accent">Аэропортов </span>241</li>
       </ul>
     </section>
 
@@ -57,10 +59,10 @@
     </section>
 
     <section class="places">
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Куршская коса </h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
         </div>
         <img class="place__image" src="./images/kurshskaya-kosa.png" alt="Куршская коса">
@@ -74,12 +76,12 @@
             Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
         </div>
         <img class="place__image" src="./images/kolskiy.png" alt="Кольский полуостров">
@@ -91,12 +93,12 @@
             пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное
             сияние начинает сбываться с билетом в Мурманск.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
         </div>
         <img class="place__image" src="./images/altay.png" alt="Вид на сосны">
@@ -109,13 +111,13 @@
             разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули.
             И знаменитые манулы — тоже обитатели Алтайского края.
           </p>
-      </div>
-      </div>
+        </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
         </div>
         <img class="place__image" src="./images/winter-baykal.png" alt="Прозрачный лед с трещинами">
@@ -128,12 +130,12 @@
             скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
         </div>
         <img class="place__image" src="./images/kareliya.png" alt="Вид на реку">
@@ -145,7 +147,7 @@
             тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
           </p>
         </div>
-      </div>
+      </article>
 
     </section>
 
