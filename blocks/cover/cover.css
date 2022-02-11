@@ -1,6 +1,6 @@
 .cover{
   position: relative;
-  margin: 91px auto 0;
+  margin: 92px auto 0;
   max-width: 1184px;
   cursor: pointer;
 }
@@ -21,4 +21,16 @@
 .cover:hover:before{
   opacity: .8;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .cover{
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .cover{
+    margin-top: 66px;
+  }
 }
