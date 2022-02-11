@@ -1,14 +1,13 @@
 .cover__link{
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   background-image: url(../../../images/zhd-baikal.png);
   width: 100%;
-  min-height: 1480px;
+  aspect-ratio: 1184 / 740;
   background-size: contain;
   background-repeat: no-repeat;
   text-decoration-line: none;
-
 }
 
