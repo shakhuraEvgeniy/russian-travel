@@ -1,10 +1,7 @@
 .cover{
   position: relative;
-  display: flex;
   margin: 91px auto 0;
   max-width: 1184px;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
 }
 
